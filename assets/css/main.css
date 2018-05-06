@@ -3280,7 +3280,7 @@
 		.wrapper .inner {
 			padding: 3em 0 1em 0 ;
 			margin: 0 auto;
-			width: 100%;
+			width: 80%;
 		}
         
         .wrapper.style1, .wrapper.style1 h2 {
@@ -3443,7 +3443,7 @@
 				-webkit-flex-direction: row;
 				-ms-flex-direction: row;
 				flex-direction: row;
-                width: 100%;
+                width: 80%;
 			}
 
 			.wrapper.spotlight .image {
@@ -3470,7 +3470,7 @@
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
 				text-align: right;
-                width: 100%;
+                width: 80%;
 			}
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
@@ -3583,7 +3583,7 @@
 
 				.wrapper .inner {
 					padding: 3em 3em 1em 3em ;
-					width: 80%;
+					width: 90%;
 				}
 
 				.wrapper.spotlight .image {
