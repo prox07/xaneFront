@@ -1657,7 +1657,7 @@
         @media screen and (max-width:500px){
 		
             body{background-image: url("xane_mob.gif");
-		    background-size: 740px 360px;
+		    background-size: 360px 740px;
             }}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
