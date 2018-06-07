@@ -1645,8 +1645,8 @@
 
 	body {
 		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-attachment: fixed;
+		background-position: center;
 	}
 
         @media screen and (min-width:501px){
@@ -1654,7 +1654,9 @@
             }}
 
         @media screen and (max-width:500px){
+		
             body{background-image: url("xane_mob.gif");
+		    background-size: 740px 360px;
             }}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
