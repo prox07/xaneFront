@@ -18,7 +18,7 @@ body {
         @media screen and (max-width:500px){
 		
             body{background-image: url("xane_mob.gif");
-		    background-size: 100% 100%;
+		    background-size: contain;
             }}
 
 /* Reset */
