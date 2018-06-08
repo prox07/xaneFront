@@ -4,21 +4,27 @@
 
 /*Shifted from _body_*/
 
-body {
+/* body {
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
-	}
+	} */
 
         @media screen and (min-width:501px){
             body{background-image: url("xane_mdlg.gif");
 		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
             }}
 
         @media screen and (max-width:500px){
 		
             body{background-image: url("xane_mob.gif");
-		    background-size: contain;
+		    background-size: 360px 740px;
+		background-attachment: none;
+		background-position: none;
+		background-repeat: no-repeat;
             }}
 
 /* Reset */
