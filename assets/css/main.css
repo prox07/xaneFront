@@ -2,6 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext,vietnamese');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+/*Shifted from _body_*/
+
+body {
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+        @media screen and (min-width:501px){
+            body{background-image: url("xane_mdlg.gif");
+		background-size: cover;
+            }}
+
+        @media screen and (max-width:500px){
+		
+            body{background-image: url("xane_mob.gif");
+		    background-size: auto;
+            }}
+
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1643,22 +1662,7 @@
 
 	}
 
-	body {
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-
-        @media screen and (min-width:501px){
-            body{background-image: url("xane_mdlg.gif");
-		background-size: cover;
-            }}
-
-        @media screen and (max-width:500px){
-		
-            body{background-image: url("xane_mob.gif");
-		    background-size: 100%;
-            }}
+	
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
