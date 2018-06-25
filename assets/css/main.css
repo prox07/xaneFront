@@ -1807,7 +1807,7 @@
 		margin: 0 0 2em 0;
 	}
     
-    .content h1{color: #4f4f4f; font-size: 3.5em; margin: 1em 0px 0px 0px;}
+    .content h1{color: #4f4f4f; font-size: 4em; margin: auto 0px; text-align: center;} 
     
     .textj{text-align: justify;}
 
@@ -3311,7 +3311,7 @@ text-align: center; color: ghostwhite; margin: 0 2vw 1em 2vw;}
             }
 
 		.wrapper .inner {
-			padding: 3em 0 1em 0 ;
+			padding: 1em 0 1em 0 ;
 			margin: 0 auto;
 			width: 80%;
 		}
