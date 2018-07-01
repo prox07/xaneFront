@@ -3668,7 +3668,7 @@ body.is-loading #banner p {
 }
 
 .wrapper.divA {
-    margin: 0em;
+    margin: 0em auto;
     color: #4f4f4f;
 }
 
@@ -3843,7 +3843,6 @@ body.is-loading #banner p {
     -webkit-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
-    text-align: right;
     width: 80%;
 }
 
