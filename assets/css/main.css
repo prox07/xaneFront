@@ -4045,6 +4045,12 @@ body.is-loading #banner p {
         padding: 0.1em 1.5em 0.8em 1.5em;
         width: 100%;
     }
+
+    .wrapper .inner .content .fitin {
+        padding: 1em 0em 0em 0em;
+        font-size: 14px;
+        text-align: justify;
+    }
 }
 
 
