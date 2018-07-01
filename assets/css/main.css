@@ -2046,13 +2046,6 @@ p {
     margin: 0 0 2em 0;
 }
 
-.content h1 {
-    color: #4f4f4f;
-    font-size: 4em;
-    margin: auto 0px;
-    text-align: center;
-}
-
 .textj {
     text-align: justify;
 }
@@ -2060,21 +2053,23 @@ p {
 
 
 @media screen and (max-width: 500px) {
-    .textcc {
-        text-align: justify;
-        font-family: 'Quicksand', sans-serif;
-        margin: 0 2vw 1em 2vw;
-        font-size: 16px;
-    }
+    .content h1 {
+    color: #4f4f4f;
+    font-size: 1.5em;
+    margin: auto 0px;
+    text-align: center;
+}
+
 }
 
 @media screen and (min-width: 501px) {
-    .textcc {
-        text-align: justify;
-        font-family: 'Quicksand', sans-serif;
-        margin: 0 2vw 1em 2vw;
-        font-size: 24px;
-    }
+    .content h1 {
+    color: #4f4f4f;
+    font-size: 4em;
+    margin: auto 0px;
+    text-align: center;
+}
+
 }
 
 .textcot {
@@ -2095,11 +2090,28 @@ p {
     margin: 0px;
 }
 
-.textc {
+
+@media screen and (max-width: 500px) {
+
+.content .textc h1{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    margin: 0 2vw 1em 2vw;
-    font-size: 32px;
+    margin: auto 0px;
+    font-size: 20px;
+}
+
+}
+
+@media screen and (min-width: 501px) {
+
+.content .textc h1{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin: auto 0px;
+    font-size: 20px;
+}
+
+
 }
 
 .crcl {
@@ -3625,6 +3637,12 @@ body.is-loading #banner p {
 
 .wrapper .inner {
     padding: 1em 0 1em 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.wrapper .inner h1{
+    padding: 1.4em 0 1em 0;
     margin: 0 auto;
     width: 80%;
 }
