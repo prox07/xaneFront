@@ -2037,6 +2037,8 @@ b {
     font-weight: 600;
 }
 
+.black {color: black;}
+
 em,
 i {
     font-style: italic;
