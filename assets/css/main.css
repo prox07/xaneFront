@@ -3848,7 +3848,7 @@ body.is-loading #banner p {
     width: 80%;
 }
 
-.wrapper.spotlight:nth-child(2n - 1) .image {
+.wrapper.spotlight.image {
     margin: 0 0 2em 3em;
 }
 
