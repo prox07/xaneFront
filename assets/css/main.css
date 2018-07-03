@@ -2081,6 +2081,7 @@ p {
     font-size: 24px;
     color: black;
     margin: 0px;
+    font-weight: 500;
 }
 
 .textccot {
@@ -3839,6 +3840,8 @@ body.is-loading #banner p {
     width: 100%;
     -ms-flex: 2;
 }
+
+.fdec{font-size: 17px}
 
 .wrapper.spotlight:nth-child(2n - 1) .inner {
     -moz-flex-direction: row-reverse;
