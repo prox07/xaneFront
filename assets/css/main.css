@@ -3,14 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
+
 /*Shifted from _body_*/
 
 
 /* body {
-		background-attachment: fixed;
-		background-position: center;
-		background-repeat: no-repeat;
-	} */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    } */
 
 @media screen and (min-width:501px) {
     body {
@@ -32,7 +33,10 @@
     display: inline-block;
 }
 
-.cl1{width: 280px; height: 220px}
+.cl1 {
+    width: 280px;
+    height: 220px
+}
 
 
 @media screen and (max-width: 500px) {
@@ -60,6 +64,7 @@
         background-repeat: no-repeat;
     }
 }
+
 
 
 /* Reset */
@@ -199,6 +204,7 @@ body {
 }
 
 
+
 /* Box Model */
 
 *,
@@ -208,6 +214,7 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 
 
 /* Grid */
@@ -1871,6 +1878,7 @@ body {
 }
 
 
+
 /* Basic */
 
 @-ms-viewport {
@@ -1903,6 +1911,7 @@ body.is-loading *:after {
     -ms-transition: none !important;
     transition: none !important;
 }
+
 
 
 /* Type */
@@ -2037,7 +2046,9 @@ b {
     font-weight: 600;
 }
 
-.black {color: black;}
+.black {
+    color: black;
+}
 
 em,
 i {
@@ -2056,22 +2067,20 @@ p {
 
 @media screen and (max-width: 500px) {
     .content h1 {
-    color: #4f4f4f;
-    font-size: 1.5em;
-    margin: auto 0px;
-    text-align: center;
-}
-
+        color: #4f4f4f;
+        font-size: 1.5em;
+        margin: auto 0px;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 501px) {
     .content h1 {
-    color: #4f4f4f;
-    font-size: 4em;
-    margin: auto 0px;
-    text-align: center;
-}
-
+        color: #4f4f4f;
+        font-size: 4em;
+        margin: auto 0px;
+        text-align: center;
+    }
 }
 
 .textcot {
@@ -2096,25 +2105,22 @@ p {
 
 @media screen and (max-width: 500px) {
 
-.content .textc h1{
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    margin: auto 0px;
-    font-size: 20px;
-}
-
+    .content .textc h1 {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        margin: auto 0px;
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 501px) {
 
-.content .textc h1{
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    margin: auto 0px;
-    font-size: 20px;
-}
-
-
+    .content .textc h1 {
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        margin: auto 0px;
+        font-size: 20px;
+    }
 }
 
 .crcl {
@@ -2271,12 +2277,14 @@ hr.major {
 }
 
 
+
 /* Section/Article */
 
 section.special,
 article.special {
     text-align: center;
 }
+
 
 
 /* Form */
@@ -2504,6 +2512,7 @@ input[type="radio"]+label:before {
 }
 
 
+
 /* Box */
 
 .box {
@@ -2524,6 +2533,8 @@ input[type="radio"]+label:before {
     border-radius: 0;
     padding: 0;
 }
+
+.alterimg{ height: ;}
 
 
 /* Icon */
@@ -2546,6 +2557,7 @@ input[type="radio"]+label:before {
 .icon>.label {
     display: none;
 }
+
 
 
 /* Image */
@@ -2603,6 +2615,7 @@ input[type="radio"]+label:before {
 .image.main img {
     width: 100%;
 }
+
 
 
 /* List */
@@ -2887,6 +2900,7 @@ dl dd {
 }
 
 
+
 /* Table */
 
 .table-wrapper {
@@ -2954,6 +2968,7 @@ table.alt thead {
 table.alt tfoot {
     border-top: 0;
 }
+
 
 
 /* Button */
@@ -3100,6 +3115,7 @@ button:disabled,
 }
 
 
+
 /* Features */
 
 .features {
@@ -3176,6 +3192,7 @@ button:disabled,
         margin: 0 0 2em 0 !important;
     }
 }
+
 
 
 /* Header */
@@ -3333,6 +3350,7 @@ button:disabled,
         padding-right: 1.25em;
     }
 }
+
 
 
 /* Banner */
@@ -3510,6 +3528,7 @@ body.is-loading #banner p {
 }
 
 
+
 /* Wrapper */
 
 #wrapper>header {
@@ -3644,7 +3663,7 @@ body.is-loading #banner p {
     width: 80%;
 }
 
-.wrapper .inner h1{
+.wrapper .inner h1 {
     padding: 1.4em 0 1em 0;
     margin: 0 auto;
     width: 80%;
@@ -3841,7 +3860,9 @@ body.is-loading #banner p {
     -ms-flex: 2;
 }
 
-.fdec{font-size: 17px}
+.fdec {
+    font-size: 17px
+}
 
 .wrapper.spotlight:nth-child(2n - 1) .inner {
     -moz-flex-direction: row-reverse;
@@ -4059,6 +4080,7 @@ body.is-loading #banner p {
 }
 
 
+
 /* Menu */
 
 @media screen and (max-width:736px) {
@@ -4224,6 +4246,7 @@ body.is-menu-visible #menu .inner {
     transform: translateY(0);
     opacity: 1;
 }
+
 
 
 /* Freakin corner cases */
