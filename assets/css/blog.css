@@ -3601,46 +3601,7 @@ body.is-loading #banner p {
 
 .wrapper {
     background-color: #2e3141;
-    margin: 6.5em 0;
     position: relative;
-}
-
-.wrapper:before,
-.wrapper:after {
-    /*background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141%3B' /%3E%3C/svg%3E");*/
-}
-
-.wrapper:before {
-    box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
-}
-
-.wrapper:after {
-    box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
-}
-
-.wrapper:before,
-.wrapper:after {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    content: '';
-    display: block;
-    height: 6.5em;
-    position: absolute;
-    width: 100%;
-}
-
-.wrapper:before {
-    left: 0;
-    top: -6.5em;
-}
-
-.wrapper:after {
-    -moz-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    -ms-transform: scaleY(-1);
-    transform: scaleY(-1);
-    bottom: -6.6em;
-    left: 0;
 }
 
 .wrapper.alt:before {
@@ -3813,19 +3774,6 @@ body.is-loading #banner p {
     background-color: white;
 }
 
-.wrapper.spotlight:before,
-.wrapper.spotlight:after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:white' /%3E%3C/svg%3E");
-}
-
-.wrapper.spotlight:before {
-    box-shadow: inset 0 -1px 0 0 #fff, 0 1px 0 0 #fff;
-}
-
-.wrapper.spotlight:after {
-    box-shadow: inset 0 -1px 0 0 #fff, 0 2px 0 0 #fff;
-}
-
 .wrapper.spotlight .inner {
     display: -moz-flex;
     display: -webkit-flex;
@@ -3889,7 +3837,7 @@ body.is-loading #banner p {
 
 
 .wrapper.spotlight.style2 {
-    background: #5AAFD4;
+    background: #ffffff;
 }
 
 .wrapper.spotlight.style2:before,
@@ -3975,10 +3923,6 @@ body.is-loading #banner p {
 
 @media screen and (max-width: 980px) {
 
-    .wrapper {
-        margin: 4.75em 0;
-    }
-
     .wrapper:before,
     .wrapper:after {
         height: 4.75em;
@@ -4009,10 +3953,6 @@ body.is-loading #banner p {
 }
 
 @media screen and (max-width: 736px) {
-
-    .wrapper {
-        margin: 2.5em 0;
-    }
 
     .wrapper:before,
     .wrapper:after {
