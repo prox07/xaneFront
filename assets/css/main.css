@@ -2145,8 +2145,7 @@ h4,
 h5,
 h6 {
     color: #ffffff;
-    font-family: 'Quicksand', sans-serif;   
-    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.1em;
     margin: 0 0 1em 0;
 }
@@ -2179,10 +2178,10 @@ h6.major {
     padding-bottom: 1em;
     border-bottom: solid 1px #f2f2f2;
 }
-
+/*
 h2 {
     font-size: 1.2em;
-}
+}*/
 
 h3 {
     font-size: 0.9em;
